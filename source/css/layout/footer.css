@@ -1,0 +1,21 @@
+footer{
+    background-color: #251D3A;
+    padding: 10px 30px;
+}
+footer p{margin: 0;}
+.footer-contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.iconos-redesSociales{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icono-redSocial svg{transition: ease .3s}
+.icono-redSocial svg:hover{
+    stroke: #E04D01;
+}

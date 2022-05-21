@@ -1,0 +1,10 @@
+.bg-azulOscuro{background-color: #251D3A;}
+.navbar .dropdown-menu{background-color: #251D3A;}
+.navbar a{color: white;}
+.navbar a:hover{color:#FF7700;}
+.logo-videogames{
+    width: 70px;
+    height: 70px;
+}
+.navbar-toggler{color: white;}
+button .navbar-toggler-icon{stroke: white; color: white;}

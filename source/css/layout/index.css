@@ -1,0 +1,88 @@
+.heroe_index{
+    background-image: url(../../img/heroe/proyecto8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+}
+.heroe_index:hover{
+    background-image: url(../../img/heroe/proyecto8.1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.overlay{
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.razon_index{text-align: center;}
+@media (min-width: 1200px) {
+    .razon_index{
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+    }
+}
+.ubicacion-contenido{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+@media (min-width: 1200px) {
+    .ubicacion-contenido{
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+.map-descripcion{padding-top: 20px;}
+@media (min-width: 1200px) {
+    .map-descripcion{padding-top: 0;}
+}
+.practicas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media (min-width: 768px) {
+    .practicas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1200px) {
+    .practicas{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.practica1{
+    background-image: url(../../img/proyectos/proyecto1.2.jpg);
+}
+.practica1:hover{background-image: url(../../img/proyectos/proyecto1.jpg);}
+
+.practica2{
+    background-image: url(../../img/proyectos/proyecto2.1.jpg);
+}
+.practica2:hover{background-image: url(../../img/proyectos/proyecto2.jpg);}
+
+.practica3{
+    background-image: url(../../img/proyectos/proyecto3.1.jpg);
+}
+.practica3:hover{background-image: url(../../img/proyectos/proyecto3.jpg);}
+
+.practica4{
+    background-image: url(../../img/proyectos/proyecto4.1.jpg);
+}
+.practica4:hover{background-image: url(../../img/proyectos/proyecto3.jpg);}

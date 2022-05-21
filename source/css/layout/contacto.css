@@ -1,0 +1,23 @@
+.profilePic{
+    background-image: url(../../img/proyectos/proyecto17.1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.profilePic:hover{background-image: url(../../img/proyectos/proyecto17.jpg);}
+.contacto-contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descripcionContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}

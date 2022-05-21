@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+body p{font-size: 20px;}
+body a{
+    text-decoration: none;
+    color: #E04D01;
+    transition: ease .3s;
+}
+body a:hover{
+    text-decoration: none;
+    color: #FF7700;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Press Start 2P', cursive; 
+    text-transform: uppercase;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+img{width: 100%;}
+/*============================== COLORES ==============================
+    azulOscuro: #251D3A
+    azul: #2A2550
+    naranjaOscuro: #E04D01
+    naranja: #FF7700
+*/
