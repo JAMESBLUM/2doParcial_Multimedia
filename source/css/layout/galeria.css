@@ -1,0 +1,102 @@
+.galeria-contenido{padding: 50px 0;}
+@media (min-width: 768px) {
+    .galeria-contenido{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .galeria-contenido{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .audios-contenido{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+/*======================== PROYECTOS ========================*/
+.galeria1{background-image: url(../../img/proyectos/proyecto1.2.jpg);}
+.galeria1:hover{background-image: url(../../img/proyectos/proyecto1.jpg);}
+/*===========================================*/
+.galeria2{background-image: url(../../img/proyectos/proyecto2.1.jpg);}
+.galeria2:hover{background-image: url(../../img/proyectos/proyecto2.jpg);}
+/*===========================================*/
+.galeria3{background-image: url(../../img/proyectos/proyecto3.1.jpg);}
+.galeria3:hover{background-image: url(../../img/proyectos/proyecto3.1.jpg);}
+/*===========================================*/
+.galeria4{background-image: url(../../img/proyectos/proyecto4.1.jpg);}
+.galeria4:hover{background-image: url(../../img/proyectos/proyecto3.1.jpg);}
+/*===========================================*/
+.galeria5{background-image: url(../../img/proyectos/proyecto5.1.jpg);}
+.galeria5:hover{background-image: url(../../img/proyectos/proyecto5.jpg);}
+/*===========================================*/
+.galeria6{background-image: url(../../img/proyectos/proyecto6.1.jpg);}
+.galeria6:hover{background-image: url(../../img/proyectos/proyecto6.jpg);}
+/*===========================================*/
+.galeria7{background-image: url(../../img/proyectos/proyecto7.1.jpg);}
+.galeria7:hover{background-image: url(../../img/proyectos/proyecto7.jpg);}
+/*===========================================*/
+.galeria8{background-image: url(../../img/proyectos/proyecto9.1.jpg);}
+.galeria8:hover{background-image: url(../../img/proyectos/proyecto9.jpg);}
+/*===========================================*/
+.galeria9{background-image: url(../../img/proyectos/segundoParcial/practica20.1.png);}
+.galeria9:hover{background-image: url(../../img/proyectos/segundoParcial/practica20.png);}
+/*===========================================*/
+.galeria10{background-image: url(../../img/proyectos/proyecto10.1.jpg);}
+.galeria10:hover{background-image: url(../../img/proyectos/proyecto10.jpg);}
+/*===========================================*/
+.galeria11{background-image: url(../../img/proyectos/proyecto11.1.jpg);}
+.galeria11:hover{background-image: url(../../img/proyectos/proyecto11.jpg);}
+/*===========================================*/
+.galeria12{background-image: url(../../img/proyectos/proyecto14.1.jpg);}
+.galeria12:hover{background-image: url(../../img/proyectos/proyecto14.jpg);}
+/*===========================================*/
+.galeria13{background-image: url(../../img/proyectos/proyecto15.1.jpg);}
+.galeria13:hover{background-image: url(../../img/proyectos/proyecto15.jpg);}
+/*===========================================*/
+.galeria14{background-image: url(../../img/proyectos/proyecto16.jpg);}
+/*===========================================*/
+.galeria15{background-image: url(../../img/proyectos/proyecto17.1.jpg);}
+.galeria15:hover{background-image: url(../../img/proyectos/proyecto17.jpg);}
+/*===========================================*/
+.galeria16{background-image: url(../../img/proyectos/proyecto18.1.jpg);}
+.galeria16:hover{background-image: url(../../img/proyectos/proyecto18.jpg);}
+/*===========================================*/
+.galeria17{background-image: url(../../img/proyectos/segundoParcial/practica21.1.PNG);}
+.galeria17:hover{background-image: url(../../img/proyectos/segundoParcial/practica21.PNG);}
+/*===========================================*/
+.galeria18{background-image: url(../../img/proyectos/segundoParcial/practica22.1.gif);}
+/*===========================================*/
+.galeria19{background-image: url(../../img/proyectos/segundoParcial/practica23.1.gif);}
+/*===========================================*/
+.galeria20{background-image: url(../../img/proyectos/segundoParcial/practica24.1.gif);}
+/*===========================================*/
+.galeria21{background-image: url(../../img/proyectos/segundoParcial/practica25.1.gif);}
+/*===========================================*/
+.galeria22{background-image: url(../../img/proyectos/segundoParcial/practica26.1.gif);}
+.galeria22:hover{background-image: url(../../img/proyectos/segundoParcial/practica26.gif);}
+/*===========================================*/
+.galeria23{background-image: url(../../img/proyectos/segundoParcial/practica27.1.jpg);}
+/*===========================================*/
+.galeria24{background-image: url(../../img/proyectos/segundoParcial/practica28.1.gif);}
+.galeria24:hover{background-image: url(../../img/proyectos/segundoParcial/practica28.gif);}
+/*===========================================*/
+.galeria25{background-image: url(../../img/proyectos/segundoParcial/practica29.1.gif);}
+/*===========================================*/
+.galeria26{background-image: url(../../img/proyectos/segundoParcial/practica31.1.gif);}
+.galeria26:hover{background-image: url(../../img/proyectos/segundoParcial/practica31.gif);}
+/*===========================================*/
+.galeria27{background-image: url(../../img/proyectos/segundoParcial/practica32.1.gif);}
+.galeria27:hover{background-image: url(../../img/proyectos/segundoParcial/practica32.gif);}
+/*===========================================*/
+.galeria28{background-image: url(../../img/proyectos/segundoParcial/practica35.1.gif);}
+/*===========================================*/
+.galeria29{background-image: url(../../img/proyectos/segundoParcial/practica36.1.gif);}
+.galeria29:hover{background-image: url(../../img/proyectos/segundoParcial/practica36.gif);}
+/*===========================================*/

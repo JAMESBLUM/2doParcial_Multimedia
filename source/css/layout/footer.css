@@ -5,15 +5,29 @@ footer{
 footer p{margin: 0;}
 .footer-contenido{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: white;
+    text-align: center;
 }
 .iconos-redesSociales{
+    padding-top: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
+}  
+@media (min-width: 768px) {
+    .footer-contenido{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .iconos-redesSociales{
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+    }   
 }
 .icono-redSocial svg{transition: ease .3s}
 .icono-redSocial svg:hover{

@@ -1,0 +1,26 @@
+.heroe-categorias{
+    background-image: url(../../img/heroe/proyecto13.1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+.heroe-categorias:hover{background-image: url(../../img/heroe/proyecto13.jpg);}
+.categoria-contenido{padding: 50px 0;}
+@media (min-width: 1200px) {
+    .card{width: 25rem;}
+    .categoria-contenido{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.esports-contenido{padding: 50px 0;}
+.vrBoy{background-image: url(../../img/proyectos/segundoParcial/practica36.1.gif);}
+@media (min-width: 1200px) {
+    .esports-contenido{
+        display: flex;
+        gap: 10px;
+    }
+}
